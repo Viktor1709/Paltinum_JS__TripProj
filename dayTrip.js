@@ -1,16 +1,17 @@
 "use strict"
 //console.log("Hello Tom");
 
-//1 Make 3 commits, ???
+//1 Make 3 commits 
 // 2 generate a random location
 
 
 // function randomSelection(newArray) {
 //     let randomArray = Math.floor(Math.random() * randomArray.length);
-//     return (randomArray);
+//     return (newArray);
 
 // }
-//console.log(randomLoc);
+
+
 
 // let arrayLocation = ["Paris", "the garage", "downtown", "Guam"];
 // let randDest = randomSelection(arrayLocation)
@@ -20,11 +21,14 @@
 // let randomLoc = arrayLocation[Math.floor(Math.random() * arrayLocation.length)];
 //console.log(randomLoc);
 
-let tripComplete = []
+
 
 let arrayLocation = ["Paris", "the garage", "downtown", "Guam"];
 let randDest = arrayLocation[Math.random() * arrayLocation.length | 0];
 console.log(randDest);
+
+// let mySelection = randomSelection(arrayLocation);
+// console.log(mySelection);
 
 
 // 3 generate a random restaurant
@@ -76,3 +80,36 @@ console.log(randEntertain);
 // 6 randomly re-select a destination, restaurant, 
 // mode of transportation, and/or form of entertainment 
 // if I dont like them
+
+
+// for (let i = 0; i < arrayRestaurant.length; i++) {
+//     let userInputRest = prompt("Yes or No");
+
+//     let userInputChoice = true;
+//     let myUserChoice = "";
+
+//     while (userInputChoice) {
+//         myUserChoice = prompt("Yes or No");
+//         if (myUserChoice === "Yes") {
+//             tripComplete.push(randRestaurant);
+//             userInputPassword = false;
+//         } else {
+//             console.log(randRestaurant);
+//         }
+//     }
+// }
+//     if (userInputRest == "No") {
+//         console.log(randRestaurant);
+//     }
+//     else if (userInputRest == "Yes") {
+//         tripComplete.push(randRestaurant);
+//     }
+// }
+
+//7 confirm trip as "complete" once selections are made
+let tripComplete = []
+
+//display completed trip selection
+//console.log(tripComplete)
+//keep functions to Single Responsibility
+
